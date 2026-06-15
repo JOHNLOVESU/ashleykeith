@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yawa nga Website</title>
+     <link rel="stylesheet" href="css.css">
+
+</head>
+<body>
+    <div id="lockScreen">
+    <h1>Hi lang!</h1>
+    <p>Enter a number. Ang clue kay kahibaw naka.</p>
+
+    <div class="display" id="display">••••</div>
+
+    <div class="keypad">
+        <button onclick="addNumber('1')">1</button>
+        <button onclick="addNumber('2')">2</button>
+        <button onclick="addNumber('3')">3</button>
+
+        <button onclick="addNumber('4')">4</button>
+        <button onclick="addNumber('5')">5</button>
+        <button onclick="addNumber('6')">6</button>
+
+        <button onclick="addNumber('7')">7</button>
+        <button onclick="addNumber('8')">8</button>
+        <button onclick="addNumber('9')">9</button>
+
+        <button onclick="clearInput()">⌫</button>
+        <button onclick="addNumber('0')">0</button>
+        <button onclick="checkCode()">Enter</button>
+    </div>
+
+    <p id="error" class="error"></p>
+</div>
+    <script src="JavaScript.js"></script>
+</body>
+</html>

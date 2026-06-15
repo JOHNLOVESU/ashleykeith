@@ -1,0 +1,51 @@
+.display{
+    width:220px;
+    margin:20px auto;
+    padding:15px;
+    background:#f8f8f8;
+    border-radius:12px;
+    font-size:28px;
+    letter-spacing:5px;
+    text-align:center;
+    border:2px solid #ffd6de;
+}
+
+#lockScreen,
+.letter{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+    max-width:500px;
+    width:100%;
+    
+}
+
+.letter{
+    display:none;
+}
+
+.keypad{
+    display:grid;
+    grid-template-columns:repeat(3,70px);
+    gap:10px;
+    justify-content:center;
+    margin-top:20px;
+}
+
+.keypad button{
+    height:70px;
+    border:none;
+    border-radius:15px;
+    background:#ff4d6d;
+    color:white;
+    font-size:24px;
+    cursor:pointer;
+    transition:.2s;
+}
+
+.keypad button:hover{
+    transform:scale(1.05);
+    background:#e63956;
+}
